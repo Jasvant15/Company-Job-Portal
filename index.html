@@ -3,82 +3,339 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jasvant Chandel | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Jasvant | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="home">
+  <header>
     <nav>
-      <h1><Jasvant class="dav">Jasvant.dav</Jasvant></h1>
+      <div class="logo">Jasvant</div>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#resume">resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <section class="hero">
-      <h2>Hi, I'm a Web Developer👋</h2>
-      <p>Building clean, user-friendly websites and web apps</p>
-      <a href="#contact" class="btn">Hire Me</a>
-    </section>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi! I'm Jasvant, a BCA student at the Institute of Professional Studies, Gangoh, Saharanpur (U.P). 
-      I specialize in front-end development and love building responsive, accessible, and clean web experiences.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>Designed a personal portfolio with smooth navigation and responsive design.</p>
+  <main>
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="greeting">Hello, I'm</span>
+              <span class="name">Jasvant</span>
+              <span class="wave">👋</span>
+            </h1>
+            <p class="hero-subtitle">Passionate Web Developer & Creative Problem Solver</p>
+            <p class="hero-description">I craft beautiful, functional, and user-friendly digital experiences that make a difference. Specializing in modern web technologies and creative solutions.</p>
+            
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-number">6</span>
+                <span class="stat-text">Technologies</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">2+</span>
+                <span class="stat-text">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-text">Dedication</span>
+              </div>
+            </div>
+            
+            <div class="hero-buttons">
+              <a href="#projects" class="btn primary-btn">
+                <span class="btn-icon">🚀</span>
+                <span class="btn-text">View My Work</span>
+              </a>
+              <a href="#contact" class="btn secondary-btn">
+                <span class="btn-icon">💬</span>
+                <span class="btn-text">Get In Touch</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-visual">
+            <div class="floating-elements">
+              <div class="floating-icon" style="--delay: 0s">💻</div>
+              <div class="floating-icon" style="--delay: 1s">🎨</div>
+              <div class="floating-icon" style="--delay: 2s">⚡</div>
+              <div class="floating-icon" style="--delay: 3s">🚀</div>
+              <div class="floating-icon" style="--delay: 2.5s">☕</div>
+            </div>
+            <div class="hero-avatar">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Developer at Laptop" class="hero-img" />
+            </div>
+          </div>
+        </div>
+        
+        <div class="scroll-indicator">
+          <span class="scroll-text">Scroll Down</span>
+          <div class="scroll-arrow">↓</div>
+        </div>
       </div>
-      <div class="project-card">
-        <h3>Typing Speed Software</h3>
-        <p>A simple JavaScript-powered todo list app with persistent storage.</p>
-      </div>
-      <!-- Add more projects -->
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>C</li>
-      <li>C++</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-    </ul>
-  </section>
-
-  <section id="resume">
-      <h2>Resume</h2>
-      <p>Click below to download my resume:</p>
-      <a href="myresume2.pdf" class="btn" download>Download Resume</a>
     </section>
 
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Passionate Web Developer & Creative Problem Solver</h3>
+            <p class="about-intro">Hello! I'm Jasvant, a dedicated web developer with a passion for creating beautiful, functional, and user-friendly digital experiences. I believe that great websites are built with both technical excellence and creative vision.</p>
+            
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <div class="highlight-content">
+                  <h4>Mission-Driven</h4>
+                  <p>I focus on delivering clean, efficient code that solves real-world problems and enhances user experiences.</p>
+                </div>
+              </div>
+              
+              <div class="highlight-item">
+                <span class="highlight-icon">🚀</span>
+                <div class="highlight-content">
+                  <h4>Always Learning</h4>
+                  <p>Currently pursuing BCA while actively expanding my skills in modern web technologies and frameworks.</p>
+                </div>
+              </div>
+              
+              <div class="highlight-item">
+                <span class="highlight-icon">💡</span>
+                <div class="highlight-content">
+                  <h4>Creative Solutions</h4>
+                  <p>I combine technical expertise with creative thinking to build websites that stand out and perform exceptionally.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="about-details">
+              <div class="detail-row">
+                <span class="detail-label">📍 Location:</span>
+                <span class="detail-value">Gangoh, Saharanpur (U.P), India</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">🎓 Education:</span>
+                <span class="detail-value">BCA at Institute of Professional Studies</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">💻 Specialization:</span>
+                <span class="detail-value">Frontend Development & UI/UX Design</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Dedication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skill-icon">
+          <span>HTML5</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skill-icon">
+          <span>CSS3</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="skill-icon">
+          <span>C</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="skill-icon">
+          <span>C++</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon">
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-intro">
+        <p>Here are some of my recent projects that showcase my skills in web development and problem-solving abilities.</p>
+      </div>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-icon">🌐</span>
+          </div>
+          <div class="project-content">
+            <h3>Personal Portfolio Website</h3>
+            <p class="project-description">A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Features smooth animations, interactive elements, and a clean design that showcases my work effectively.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">✨ Responsive Design</span>
+              <span class="feature">🎨 Modern UI/UX</span>
+              <span class="feature">📱 Mobile Friendly</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <span class="project-icon">⌨️</span>
+          </div>
+          <div class="project-content">
+            <h3>Typing Speed Tester</h3>
+            <p class="project-description">An interactive typing speed application that helps users improve their typing skills. Features real-time WPM calculation, accuracy tracking, and performance analytics with a user-friendly interface.</p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">React</span>
+            </div>
+            <div class="project-features">
+              <span class="feature">⚡ Real-time WPM</span>
+              <span class="feature">📊 Accuracy Tracking</span>
+              <span class="feature">📈 Performance Analytics</span>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <div class="resume-container">
+        <div class="resume-card">
+          <div class="resume-icon">
+            <span>📄</span>
+          </div>
+          <div class="resume-content">
+            <h3>Jasvant </h3>
+            <p class="resume-subtitle">Web Developer & BCA Student</p>
+            <p class="resume-description">Download my detailed resume to learn more about my education, skills, and experience in web development.</p>
+            <div class="resume-details">
+              <div class="detail-item">
+                <span class="detail-icon">🎓</span>
+                <span>BCA Student at Institute of Professional Studies</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">💻</span>
+                <span>Frontend Development Specialist</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">📍</span>
+                <span>Gangoh, Saharanpur (U.P)</span>
+              </div>
+            </div>
+            <a href="myresume2.pdf" class="resume-btn" download>
+              <span class="btn-icon">📥</span>
+              <span class="btn-text">Download Resume</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="contact">
       <h2>Contact Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
+      <form id="contact-form" autocomplete="off">
+        <div class="form-group">
+          <label for="name"><span>👤</span> Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email"><span>📧</span> Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="message"><span>💬</span> Your Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        <div id="form-status"></div>
       </form>
     </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Jasvant Chandel. All rights reserved.</p>
+    <p>© 2025 Jasvant Chandel. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const status = document.getElementById('form-status');
+      const submitBtn = this.querySelector('.btn');
+      const originalText = submitBtn.textContent;
+      
+      // Simple validation
+      if (!name || !email || !message) {
+        status.textContent = 'Please fill in all fields.';
+        status.style.color = '#e53935';
+        return;
+      }
+      // Email format check
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        status.textContent = 'Please enter a valid email address.';
+        status.style.color = '#e53935';
+        return;
+      }
+      
+      // Loading animation
+      submitBtn.textContent = 'Sending...';
+      submitBtn.style.background = 'linear-gradient(45deg, #ff9800, #ff5722)';
+      submitBtn.disabled = true;
+      
+      // Simulate sending delay
+      setTimeout(() => {
+        // Success animation
+        submitBtn.textContent = '✓ Sent!';
+        submitBtn.style.background = 'linear-gradient(45deg, #4caf50, #2e7d32)';
+        status.textContent = 'Thank you for reaching out! I will get back to you soon.';
+        status.style.color = '#009688';
+        
+        // Reset button after delay
+        setTimeout(() => {
+          submitBtn.textContent = originalText;
+          submitBtn.style.background = 'linear-gradient(45deg, #00bcd4, #0097a7)';
+          submitBtn.disabled = false;
+          this.reset();
+        }, 2000);
+      }, 1500);
+    });
+  </script>
 </body>
 </html>
+
